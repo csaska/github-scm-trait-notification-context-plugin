@@ -88,7 +88,7 @@ public class NotificationContextTrait extends SCMSourceTrait {
             if (typeSuffix) {
                 if (head instanceof PullRequestSCMHead) {
                     if (((PullRequestSCMHead) head).isMerge()) {
-                        return contextLabel + "/pr-merge";
+                        return contextLabel + "/pr-colt";
                     } else {
                         return contextLabel + "/pr-head";
                     }
